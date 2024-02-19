@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Design</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+        }
+        .mehndi-design {
+            width: 300px;
+            height: 300px;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            padding: 20px;
+            position: relative;
+        }
+        .floral {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #000;
+            background: radial-gradient(circle at 50px 50px, #FFD700, #FF6347);
+        }
+        .leaf {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 10px 20px 10px;
+            border-color: transparent transparent #008000 transparent;
+            transform: rotate(45deg);
+        }
+        .leaf1 {
+            top: 25px;
+            left: 20px;
+        }
+        .leaf2 {
+            top: 30px;
+            left: 90px;
+        }
+        .leaf3 {
+            top: 100px;
+            left: 10px;
+            transform: rotate(-45deg);
+        }
+        .leaf4 {
+            top: 80px;
+            left: 80px;
+            transform: rotate(-45deg);
+        }
+        .leaf5 {
+            top: 90px;
+            left: 120px;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="mehndi-design">
+        <div class="floral"></div>
+        <div class="leaf leaf1"></div>
+        <div class="leaf leaf2"></div>
+        <div class="leaf leaf3"></div>
+        <div class="leaf leaf4"></div>
+        <div class="leaf leaf5"></div>
+    </div>
+</body>
+</html>
